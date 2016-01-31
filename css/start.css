@@ -1,0 +1,199 @@
+.circleBorder{
+    width: 32px;
+    border: 2px solid #797979;
+    padding: 3px;
+    border-radius: 22px;
+    float: left;
+    text-align: center;
+    -moz-transition: all  0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+
+.circleBorder:hover{
+    -webkit-transform: translate(-10px,0px);
+    -moz-transform: translate(-10px,0px);
+    -o-transform: translate(-10px,0px);
+}
+
+
+.giftTrans{
+    -moz-transition: all  0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.giftTrans:hover{
+    -webkit-transform: translate(-10px,0px);
+    -moz-transform: translate(-10px,0px);
+    -o-transform: translate(-10px,0px);
+}
+.sotSet{
+    -moz-transition: all  0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.sotSet:hover{
+    -webkit-transform: translate(0px,-10px);
+    -moz-transform: translate(0px,-10px);
+    -o-transform: translate(0px,-10px);
+}
+
+.menu{
+    text-align: center;
+}
+ul.inArrow {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.inArrow li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 10px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+@media screen and (max-width: 959px){
+    .nOnE{
+        display: none;
+
+    }
+}
+@media screen and (min-width: 960px){
+    .nOnEHight{
+        display: none;
+
+    }
+}
+.p10Arch{
+    font-family: Archive;
+    font-size: 12pt;
+    font-weight: 600;
+}
+@media screen and (min-width: 1160px){
+    .spacing{
+       margin-left: 75px;
+    }
+}
+@media screen and (max-width: 1159px){
+    .spacing{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width: 959px){
+    .spacing{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 959px){
+    .rowList{
+        display: none;
+    }
+}
+.squareBorder{
+    width: 40px;
+    padding: 3px;
+    float: left;
+    text-align: center;
+
+    -moz-transition: all  0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.squareBorder:hover{
+    border-radius: 20px;
+}
+
+.shadow {
+
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.boxShadowLeftRight{
+
+
+    padding: 1em;
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, .3),
+        -23px 0 20px -23px rgba(0, 0, 0, .8),
+        23px 0 20px -23px rgba(0, 0, 0, .8),
+        0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+@media screen and (max-width: 959px){
+    #marginNone{
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width: 960px){
+    #marginNone{
+        margin-top: 450px;
+    }
+}
+
+.buttonOrder{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: Archive;
+    font-size: 16pt;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #797979;
+    text-align: center;
+    line-height: 50px;
+    -moz-transition: all  0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+.buttonOrder:hover{
+    background-color: #F9C857;
+}
+
+@media screen and (min-width: 960px){
+    .buttonOrder{
+        margin-left: 38%;
+    }
+}
+
+@media screen and (max-width: 959px){
+    .buttonOrder{
+        margin-left: 33%;
+    }
+}
+
+.buttonReview{
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+    font-family: Calibri;
+    font-size: 20pt;
+    color: white;
+    border-radius: 10px;
+    background-color: #362c8d;
+    text-align: center;
+    line-height: 45px;
+    -moz-transition: all  0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.buttonReview:hover{
+    background-color: #544c97;
+}
+
+.rotateClose{
+    -moz-transition: all  0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+}
+.rotateClose:hover{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/*Выпадающее меню*/
+
+

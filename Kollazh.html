@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="content-type" content="text/html">
+    <title>Коллаж</title>
+    <link rel="shortcut icon" href="img/iconLogo.png">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/delivery.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <style>
+
+        @font-face {
+            font-family: Magistral;
+            src: url(fonts/MagistralC.otf);
+        }
+        @font-face {
+            font-family: Calibri;
+            src: url(fonts/calibri.ttf);
+        }
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+        .cursorHelp{
+            cursor: url(img/loopa.png), pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      $("#aim").mouseover(function(){
+          $("#target").addClass("slideArrowLeft");
+      });
+      $("#aim").mouseout(function(){
+          $("#target").removeClass("slideArrowLeft");
+      })
+  });
+
+</script>
+<div class="container">
+    <div class="row">
+        <div class="two columns" ><a href="index.php"><img src="img/backArrow.png" id="target" width="36px" style=" float: left; margin-top: 10px"><p style="font-family: Magistral; color: #797979; font-size: 20pt; margin-top: 15px" id="aim"><b>НАЗАД</b></p></a></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="twelve columns"><p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>На протяжении всей жизни у нас накапливается
+            огромное количество фотографий, которые мы храним
+            в альбоме или в компьютере. Все они представляют
+            особую ценность, ведь на них запечатлены различные
+            аспекты биографии, наши родственники и друзья, самые
+            яркие и дорогие моменты. Коллаж «Фрагменты жизни»
+            станет оригинальным решением для оформления
+            домашнего фотоархива.</b></p><br></div>
+    </div>
+    <div class="row" style="text-align:center "> <img class="img fotosShadow cursorHelp" src="img/Collazh1.png" width="600px" id="scale3" ></div>
+    <div class="row">
+        <div class="twelve columns" style="margin-top: 3%"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Что такое коллаж «Фрагменты жизни»?</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            - Картина, состоящая из 500 Ваших личных фотографий.<br>
+            - Уникальный подарок самым близким на долгие годы.<br>
+            - Искренняя радость, которую получают Ваши близкие.<br>
+            - Эксклюзивный подарок, который Вы не купите в
+            магазине.</b></p></div>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Коллаж «Фрагменты жизни» в подарок</b></p><br>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            - Является самым приятным способом для выражения
+            теплых чувств.<br>
+            - Заставит приятно удивиться одаряемого человека.<br>
+            - Позволит Вам увидеть настоящую и неподдельную
+            радость и удивление.<br>
+            - Вызовет шквал положительных эмоций.<br>
+            - Оригинальный, эксклюзивный подарок, который Вы не
+            купите в магазине.<br>
+            - Такой подарок станет приятной неожиданностью.</b></p><br></div>
+    </div>
+   <!--Увеличение по клику и обратно картинок-->
+    <script type="text/javascript">
+         var flag = true;
+
+             $(document).ready(function(){
+                 $("#scale1").click(function(){
+                     if(flag){
+                         $(this).addClass("scaleObjects");
+                         $(this).removeClass("fotosShadow")
+                         flag = false;
+                     }else{
+                         $(this).removeClass("scaleObjects");
+                         $(this).addClass("fotosShadow");
+                         flag = true;
+                     }
+                 });
+             });
+
+         $(document).ready(function(){
+             $("#scale2").click(function(){
+                 if(flag){
+                     $(this).addClass("scaleObjects");
+                     $(this).removeClass("fotosShadow")
+                     flag = false;
+                 }else{
+                     $(this).removeClass("scaleObjects");
+                     $(this).addClass("fotosShadow");
+                     flag = true;
+                 }
+             });
+         });
+
+         $(document).ready(function(){
+             $("#scale3").click(function(){
+                 if(flag){
+                     $(this).addClass("scaleObjects");
+                     $(this).removeClass("fotosShadow")
+                     flag = false;
+                 }else{
+                     $(this).removeClass("scaleObjects");
+                     $(this).addClass("fotosShadow");
+                     flag = true;
+                 }
+             });
+         });
+
+         $(document).ready(function(){
+             $("#scale4").click(function(){
+                 if(flag){
+                     $(this).addClass("scaleObjects");
+                     $(this).removeClass("fotosShadow")
+                     flag = false;
+                 }else{
+                     $(this).removeClass("scaleObjects");
+                     $(this).addClass("fotosShadow");
+                     flag = true;
+                 }
+             });
+         });
+
+         $(document).ready(function(){
+             $("#scale5").click(function(){
+                 if(flag){
+                     $(this).addClass("scaleObjects");
+                     $(this).removeClass("fotosShadow")
+                     flag = false;
+                 }else{
+                     $(this).removeClass("scaleObjects");
+                     $(this).addClass("fotosShadow");
+                     flag = true;
+                 }
+             });
+         });
+
+    </script>
+
+    <div class="row" style="text-align:center;"> <p> <img class="img2 fotosShadow cursorHelp" src="img/Collazh2.png" id="scale1" width="350px" height="350px" >
+        <img style="margin-right: 2% ; margin-left: 2%; " class="img2 fotosShadow cursorHelp"  src="img/Collazh3.png" id="scale2"width="350px" height="350px" ></p> </div>
+    <div class="row">
+        <div class="one"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Коллаж «Фрагменты жизни» в интерьере</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            - Способен внести изюминку в строгий дизайн
+            современного офиса, украсить домашний интерьер.<br>
+            - Портрет вашего ребенка, составленный из его
+            фотографий, рисунков, изображений любимых
+            киногероев, станет отличным дополнением детской
+            комнаты.<br>
+            - Картина с изображением супругов, составленная из
+            фотографий различных стадий их отношений,
+            непременно станет притягивать взгляды посетителей.
+            Воспоминания будут согревать вас долгие годы.<br>
+            - Коллаж «Фрагменты жизни», снабженный
+            романтичной и страстной памятной надписью, будет
+            занимать достойное место в доме.<br>
+            - Необычная деталь интерьера найдёт свое место,
+            как в офисе, так и в доме.</b></p></div>
+    </div>
+    <br>
+    <div class="row" style="text-align:center "> <img class="img fotosShadow cursorHelp" src="img/Collazh4.png" width="700px" id="scale4"></div>
+    <div class="row" style="margin-top: 3%">
+        <div class="one"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Что Вы получаете, заказывая у нас коллаж «Фрагменты
+            жизни»?</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            - Бурю эмоций от человека, которому вы собираетесь
+            сделать подарок.<br>
+            - Признание вашей оригинальности и не стандартного
+            подхода к выбору подарка.<br>
+            - Картину, которая отлична впишется в интерьер.<br>
+            - Картину, которая в последствии будет приковывать
+            внимание всех гостей.<br>
+            - Подарок, который обязательно оценят по-достоинству.<br>
+            - Подарок, который станет приятной неожиданностью
+            и запомнится на долгие годы.</b></p></div>
+    </div>
+    <div class="row" style=" margin-top: 3%">
+        <div class="one"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Наши преимущества</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            - Подробная консультация по созданию коллажа
+            «Фрагменты жизни».<br>
+            - Помощь в подборке фотографий.<br>
+            - Профессиональная обработка дизайнером всех
+            фотографий.<br>
+            - Электронный макет.<br>
+            - Процесс создания занимает 1-2 дня.</b></p></div>
+    </div>
+    <div class="row">
+        <div class="one"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Три простых шага при заказе коллажа «Фрагменты жизни»</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            - Подбор серии фотографий для коллажа.<br>
+            - Выбор основного портрета. Фоновое изображение
+            является основой подарка, его воплощением, а значит,
+            от выбора портрета напрямую зависит впечатление от
+            всей проделанной работы.<br>
+            - Оформление заказа.</b></p></div>
+    </div>
+    <div class="row" style="margin-top: 3% ; text-align: center">
+    <div class="one"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Зачем раздумывать?</b></p>
+        <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Выделите свой подарок из множества остальных!</b></p></div>
+    </div>
+    <br>
+    <div class="row" style="text-align:center "> <img class="img fotosShadow cursorHelp" src="img/Collazh5.png" id="scale5" width="600px" ></div><br>
+    <div class="row" style="text-align:center ">
+        <div class="one"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Стоимость коллажа «Фрагменты жизни»<br>
+            в электронном виде - 500 руб.<br><br></b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            Внимание! Для качественной работы необходимо
+            высокое качество главной фотографии,
+            которое послужит фоном коллажа
+            (необходимое разрешение исходного фото - 150-300 dpi).
+            Таблица с размерами стандартных форматов.</b></p><br>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            Формат А4 (297 x 210) - 3508 х 2480 пикс.<br>
+            Формат А3 (420 х 297) - 4961 х 3508 пикс.<br>
+            Формат А2 (594 х 420) - 7016 х 4961 пикс.<br>
+            Формат А1 (841 х 594) - 9933 х 7016 пикс.<br></b></p>
+
+            <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Стоимость коллажа «Фрагменты жизни» "под ключ":</b><br></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            Формат А4 (297 x 210) - 900 руб.<br>
+            Формат А3 (420 х 297) - 1100 руб.<br>
+            Формат А2 (594 х 420) - 1300 руб.<br>
+            Формат А1 (841 х 594) - 1500 руб.<br></b></p>
+            <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Доставка «Почтой России» - 400 руб.</b></p><br><br>
+        </div>
+    </div>
+</div>
+<!--Футер-->
+<div class="container " style="margin-top: 10px">
+    <div class="row" align="center">
+        <div class="twelve columns boxList " align="center" style="margin-top: 0px" >
+
+            <p style="font-family: Magistral; font-size: 16pt; color: #dd005c;" ><b>Контакты:</b></p>
+            <hr style="border-top:1px dashed #797979; width:75%; margin-top: -0px"/>
+            <p style="font-family: Magistral; font-size: 16pt; color: #4A4A4A; margin-top: -20px">
+                <b>E-Mail: milena.studio@mail.ru</b></p>
+
+
+            <table >
+                <tr>
+                    <td><a href="https://vk.com/milena_studio"><img src="socsety/Vkontakte.jpg" width="80px"
+                                                                    onmouseover="this.src='contacts/Vkontakte2.png'"
+                                                                    onmouseout="this.src='socsety/Vkontakte.jpg'"></a></td>
+                    <td><a href="https://www.facebook.com/milena.studio.russia"><img src="socsety/Facebook.jpg" width="80px"
+                                                                                     onmouseover="this.src='contacts/Facebook2.png'"
+                                                                                     onmouseout="this.src='socsety/Facebook.jpg'"></a></td>
+                    <td><a href="https://instagram.com/milena_studio"><img src="socsety/Instagram.jpg" width="80px"
+                                                                           onmouseover="this.src='contacts/Instagram2.png'"
+                                                                           onmouseout="this.src='socsety/Instagram.jpg'"></a></td>
+                    <td><a href="http://ok.ru/milena.studio"><img src="socsety/Odnoklassniki.jpg" width="80px"
+                                                                  onmouseover="this.src='contacts/Odnoklassniki2.png'"
+                                                                  onmouseout="this.src='socsety/Odnoklassniki.jpg'"></a></td>
+                    <td><a href="https://twitter.com/MilenaStudioRus"><img src="socsety/Twitter.jpg" width="80px"
+                                                                           onmouseover="this.src='contacts/Twitter2.png'"
+                                                                           onmouseout="this.src='socsety/Twitter.jpg'"></a></td>
+
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

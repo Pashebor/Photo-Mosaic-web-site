@@ -1,0 +1,525 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+    <meta charset="UTF-8">
+<title>Milena Studio</title>
+<link rel="shortcut icon" href="img/iconLogo.png">
+<link rel="stylesheet" href="css/styleNav.css">
+<link rel="stylesheet" href="css/slicknav.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/start.css">
+<link rel="stylesheet" href="css/text.css">
+<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+<script src="js/modernizr.custom.17475.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script type="text/javascript" src="js/jquerypp.custom.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+
+    <!--Плавный якорь-->
+    <script >
+        $(document).ready(function() {
+
+            $('a[href^="#"]').click(function(){
+                var el = $(this).attr('href');
+                $('body').animate({
+                    scrollTop: $(el).offset().top}, 800);
+                return false;
+            });
+
+        });
+    </script>
+
+
+
+    <!--Увеличение по клику и обратно картинок-->
+    <script type="text/javascript">
+        var flag = true;
+
+        $(document).ready(function(){
+            $("#scale1").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale2").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale3").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale4").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale5").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale6").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale7").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale8").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+
+    </script>
+
+
+        <!--Слайдер-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $( '#carousel' ).elastislide({
+                minItems: 1
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu').slicknav({
+                duration: 400
+            });
+
+        });
+    </script>
+
+    <style>
+
+        @font-face {
+            font-family: Archive;
+            src: url(fonts/ArchiveRegular.ttf);
+        }
+
+        @font-face {
+            font-family: Magistral;
+            src: url(fonts/MagistralC.otf);
+        }
+        @font-face {
+            font-family: Calibri;
+            src: url(fonts/calibri.ttf);
+        }
+
+        a{
+            color: #000000;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container" style="margin-top: 20px">
+
+    <div class="row">
+        <div class="two columns nOnE" ><img src="img/Logo.png" width="120px" height="75px" style="margin-top: -25px"></div>
+        <div class="two columns nOnE"><a href="#" ><img src="img/delivery.png"   class="circleBorder" style="margin-top: -9px" /><p style="font-family: Calibri; font-weight: 500; font-size: 8pt; color: #797979; margin-left: 45px" ><b>ДОСТАВКА<br>ПО РОССИИ</b></p></a></div>
+        <div class="three columns nOnE" ><a href="#" ><img src="img/earth.png"   class="circleBorder" style="margin-top: -9px" /><p style=" font-family: Calibri; font-weight: 500; font-size: 8pt; color: #797979; margin-left: 45px" ><b>ВОЗМОЖНА ОТПРАВКА<br>РАБОТЫ В ЭЛ.ВИДЕ</b></p></a></div>
+        <div class="three columns nOnE" style="margin-left: -1%"><a href="#" ><img src="img/gift.png"   class="circleBorder" style="margin-top: -9px; margin-left: -14%"/><p style="font-family: Calibri; font-weight: 500; font-size: 8pt; color: #797979; margin-left: 20px" ><b>УЖЕ БОЛЕЕ 3500 ЧЕЛОВЕК ВЫБРАЛИ НАШИ КАРТИНЫ В КАЧЕСТВЕ ПОДАРКА</b></p></a></div>
+        <div class="two columns nOnE">
+            <table class="u-full-width">
+                <tr>      <td><a href="https://vk.com/milena_studio"><img src="socsety/Vkontakte.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="https://www.facebook.com/milena.studio.russia"><img src="socsety/Facebook.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="https://instagram.com/milena_studio"><img src="socsety/Instagram.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="http://ok.ru/milena.studio"><img src="socsety/Odnoklassniki.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="https://twitter.com/MilenaStudioRus"><img src="socsety/Twitter.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="http://vk.com/write?email=milena.studio@mail.ru"><img src="socsety/mailru.jpg" width="34px" class="sotSet"></a></td>
+                
+                 </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="row nOnEHight" >
+        <div class="twelve columns" align="center"> <img src="img/Logo2.png" width="350px" /></div>
+    </div>
+
+
+    <div class="row">
+        <table class="u-full-width nOnEHight" align="center" >
+            <tr>
+                <td><a href="#" ><img src="img/delivery.png"   class="circleBorder" style="margin-top: -9px;"/><p style="font-family: Calibri; font-weight: 500; font-size: 8pt; color: #797979; margin-left: 45px; margin-top: 5px" ><b>ДОСТАВКА ПО РОССИИ</b></p></a></td>
+                <td><a href="#" ><img src="img/earth.png"   class="circleBorder" style="margin-top: -9px;" /><p style="font-family: Calibri; font-weight: 500; font-size: 8pt; color: #797979; margin-left: 45px; margin-top: 5px"  ><b>ВОЗМОЖНА ОТПРАВКА РАБОТЫ В ЭЛ.ВИДЕ</b></p></a></td>
+            </tr>
+            <tr>
+                <td colspan="2" > <a href="#" ><div style="margin-left: 20%; margin-top: 9px"><img src="img/gift.png"   class="circleBorder" style="margin-top: -9px"/><p style=" font-family: Calibri; font-weight: 500; font-size: 8pt; color: #797979; margin-left: 45px; " ><b>УЖЕ БОЛЕЕ 3500 ЧЕЛОВЕК ВЫБРАЛИ </b><br>НАШИ КАРТИНЫ  В КАЧЕСТВЕ ПОДАРКА</p></div></a></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+</div>
+<!--Меню-->
+<div class="container" >
+    <div class="row">
+        <div class="twelve columns">
+            <ul id="menu" class="inArrow menu" >
+                <li><a href="#" class=" hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #dd005c; ">ГЛАВНАЯ</a></li>
+
+                <li><a href="styles_pictures.html" class="hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #000000; ">СТИЛИ КАРТИН</a></li>
+
+                <li><a href="prices.html" class="hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #000000; ">ЦЕНЫ</a></li>
+
+                <li><a href="delivery" class="hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #000000; ">ДОСТАВКА И ОПЛАТА</a></li>
+
+
+                <li><a href="reviews" class="hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #000000; ">ОТЗЫВЫ</a></li>
+
+                <li><a href="orders" class="hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #000000; ">ЗАКАЗАТЬ</a></li>
+
+                <li><a href="contacts" class="hvr-underline-from-center" style="font-family: Archive; font-size: 11pt; color: #000000; ">КОНТАКТЫ</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+       <div class="twelve columns" style="text-align: center">
+        <p style="font-family: Magistral; font-size: 20pt; font-weight: 500; color: #dd005c"> <b>О Нас:</b></p>
+        <p style="font-family: Calibri; font-size: 12pt; font-weight: 500; color: #000000"> <b>Студия дизайнерских портретов «Milena Studio» - это
+            команда известных художников, дизайнеров и шаржистов
+            с опытом работы более 11 лет. Мы создали
+            онлайн-пространство, где каждый может легко заказать
+            фотомозаику из тысячи маленьких изображений,
+            портрет «сухая кисть», портрет в стиле «аниме»,
+            коллаж «Фрагменты жизни» или шарж. Нами выполнено
+            около 2500 работ. Каждый заказ - это исключительно
+            ручная работа, выполненная с любовью.<br>
+            Особенный подарок - это не только практичная вещь,
+            радующая хозяина длительное время. В большей степени
+            он является выражением чувств и отношения дарителя,
+            олицетворяет собой приятное воспоминание. Именно
+            поэтому дизайнерский портрет является отличным
+            способом порадовать близкого человека.
+        </b></p><br>
+            <p style="font-family: Magistral; font-size: 16pt; font-weight: 500; color: #dd005c"><b>Наши преимущества:</b><br>
+            <p style="font-family: Calibri; font-size: 12pt; font-weight: 500; color: #000000"><b>- Подробная консультация.<br>
+            - Качественная и профессиональная работа.<br>
+            - Индивидуальный подход к каждому клиенту.<br></b></p>
+       </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+
+
+    <div class="main">
+
+        <!-- Elastislide Carousel -->
+        <ul id="carousel" class="elastislide-list">
+            <li><img src="images/port/001.jpg" id="scale1" width="300px" height="200px" style="cursor: pointer"  /></li>
+            <li><img src="img/Water.png" id="scale8" width="300px" height="200px" style="cursor: pointer"  /></li>
+            <li><img src="kollazh_slider/kol2.jpg" id="scale2" width="300px" height="200px" alt="image01" style="cursor: pointer"  /></li>
+            <li><img src="images/port/003.jpg" id="scale3" width="300px" height="200px" alt="image01" style="cursor: pointer" /></li>
+            <li><img src="anime_slider/an2.jpg"  id="scale4" width="300px" height="200px" alt="image01" style="cursor: pointer" /></li>
+            <li><img src="soft_bone_slider/soft6.jpg" id="scale5" width="300px" height="200px" alt="image01" style="cursor: pointer" /></li>
+            <li><img src="images/port/006.jpg" id="scale6" width="300px" height="200px" alt="image01" style="cursor: pointer" /></li>
+            <li><img src="soft_bone_slider/soft8.jpg" id="scale7" width="300px" height="200px" alt="image01" style="cursor: pointer" /></li>
+
+        </ul>
+        <!-- End Elastislide Carousel -->
+
+    </div>
+
+</div>
+   <br>
+   <br>
+   <br>
+<!--Скрипт видов работ-->
+<script type="text/javascript">
+//фотомозайка
+$(document).ready(function(){
+     $("#aim").mouseover(function(){
+         $("#target").addClass("shadow");
+     });
+     $("#aim").mouseout(function(){
+         $("#target").removeClass("shadow");
+     });
+ });
+ $(document).ready(function(){
+     $("#target").mouseover(function(){
+         $(this).addClass("shadow");
+     });
+     $("#target").mouseout(function(){
+         $(this).removeClass("shadow");
+     });
+ });
+
+//Шаржи
+$(document).ready(function(){
+    $("#aim2").mouseover(function(){
+        $("#target2").addClass("shadow");
+    });
+    $("#aim2").mouseout(function(){
+        $("#target2").removeClass("shadow");
+    });
+});
+$(document).ready(function(){
+    $("#target2").mouseover(function(){
+        $(this).addClass("shadow");
+    });
+    $("#target2").mouseout(function(){
+        $(this).removeClass("shadow");
+    });
+});
+//Сухая кисть
+$(document).ready(function(){
+    $("#aim3").mouseover(function(){
+        $("#target3").addClass("shadow");
+    });
+    $("#aim3").mouseout(function(){
+        $("#target3").removeClass("shadow");
+    });
+});
+$(document).ready(function(){
+    $("#target3").mouseover(function(){
+        $(this).addClass("shadow");
+    });
+    $("#target3").mouseout(function(){
+        $(this).removeClass("shadow");
+    });
+});
+//Анимэ
+$(document).ready(function(){
+    $("#aim4").mouseover(function(){
+        $("#target4").addClass("shadow");
+    });
+    $("#aim4").mouseout(function(){
+        $("#target4").removeClass("shadow");
+    });
+});
+$(document).ready(function(){
+    $("#target4").mouseover(function(){
+        $(this).addClass("shadow");
+    });
+    $("#target4").mouseout(function(){
+        $(this).removeClass("shadow");
+    });
+});
+//Коллажи
+$(document).ready(function(){
+    $("#aim5").mouseover(function(){
+        $("#target5").addClass("shadow");
+    });
+    $("#aim5").mouseout(function(){
+        $("#target5").removeClass("shadow");
+    });
+});
+$(document).ready(function(){
+    $("#target5").mouseover(function(){
+        $(this).addClass("shadow");
+    });
+    $("#target5").mouseout(function(){
+        $(this).removeClass("shadow");
+    });
+});
+</script>
+<div class="container" style="overflow: hidden" id="styles">
+    <div class="row rowList" >
+        <div class="two columns" style="text-align: center"><a href="fotomozaika.html"><img src="img/gazman.jpg" id="target"  width="170px" height="250px" /><br><p class="p10Arch hvr-underline-from-left " id="aim" style="margin-left: 25px" >ФОТОМОЗАИКА</p></a></div>
+        <div class="two columns spacing" style="text-align: center"><a href="Sharzh.html"><img src="img/giggly.png" id = "target2" width="170px" height="250px"/><p class="p10Arch hvr-underline-from-left" id="aim2" style="margin-left: 35px">ШАРЖИ</p></a></div>
+        <div class="two columns spacing" style="text-align: center"><a href="Drybrush.html"><img src="flipImges/softBone2.jpg" id = "target3" width="170px" height="250px"/><p class="p10Arch hvr-underline-from-left" id="aim3" style="margin-left: 21px">СУХАЯ КИСТЬ</p></a></div>
+        <div class="two columns spacing" style="text-align: center"><a href="Anime.html"><img src="flipImges/anime1.jpg" id = "target4" width="170px" height="250px"/><p class="p10Arch hvr-underline-from-left" id="aim4" style="margin-left: 35px">АНИМЭ</p></a></div>
+        <div class="two columns spacing" style="text-align: center"><a href="Kollazh.html"><img src="img/buzova.png" id = "target5" width="170px" height="250px"/><p class="p10Arch hvr-underline-from-left" id="aim5" style="margin-left: 20px">КОЛЛАЖИ</p></a></div>
+    </div>
+
+    <div class="row">
+        <table class="u-full-width nOnEHight">
+            <tr>
+                <td style="text-align: center"><a href="fotomozaika.html"><img src="img/mozaikportrait.jpg" width="170px" height="250px"/><br><p class="p10Arch hvr-underline-from-left">ФОТОМОЗАИКА</p></a></td>
+                <td style="text-align: center"><a href="Sharzh.html"><img src="img/giggly.png" width="170px" height="250px"/><br><p class="p10Arch hvr-underline-from-left">ШАРЖИ</p></a></td>
+            </tr>
+            <tr>
+                <td style="text-align: center"><a href="Drybrush.html"><img src="flipImges/softBone2.jpg" width="170px" height="250px"/><br><p class="p10Arch hvr-underline-from-left">СУХАЯ КИСТЬ</p></a></td>
+                <td style="text-align: center"><a href="Anime.html"><img src="flipImges/anime1.jpg" width="170px" height="250px"/><br><p class="p10Arch hvr-underline-from-left">АНИМЭ</p></a></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center"><a href="Kollazh.html"><img src="img/buzova.png" width="170px" height="250px"/><br><p class="p10Arch hvr-underline-from-left">КОЛЛАЖИ</p></a></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="twelve columns" style=" text-align: center"><p style="font-family: Magistral; font-size: 20pt; font-weight: 500; color: #dd005c">
+                <b>Почему клиенты обращаются именно к нам:</b>
+            </p></div>
+        </div>
+        <br>
+        <br>
+        <div class="row nOnE" >
+            <div class="twelve columns" >
+                <table class="u-full-width" align="center">
+                    <tr>
+                        <td><p style=" font-family: Calibri; font-weight: 500; font-size: 12pt; color: #797979; margin-top: 10px; "><img src="forStart/Podarok.png" class="giftTrans" width="48px" style="float: left; margin-left: 10%;  margin-top: -5px; padding-right: 5px"><b>Эксклюзивность. Такой товар не купить в магазине.</b></p></td>
+                        <td><p style=" font-family: Calibri; font-weight: 500; font-size: 12pt; color: #797979; margin-top: 10px; "><img src="forStart/Khudozhnik.png" class="giftTrans" width="48px" style="float: left;  margin-top: -5px; margin-left: 10%; padding-right: 5px"><b>Качество. Портреты создаются профессиональными дизайнерами.</b></p></td>
+                        <td><p style=" font-family: Calibri; font-weight: 500; font-size: 12pt; color: #797979; margin-top: 10px; "><img src="forStart/Chasy.png" class="giftTrans" width="48px" style="float: left;  margin-top: -5px;margin-left: -5%; padding-right: 5px"><b>Оперативность. От заявки до готового портрета 3-4 дня.</b></p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row nOnEHight"  aign="center">
+          <div class="twelve columns">
+            <div class="four columns" style="float: left"><img src="forStart/Podarok.png" class="squareBorder giftTrans"><p style="font-family: Magistral; font-size: 11pt; color: #797979; margin-top: 10px; padding-left: 60px" >
+                Эксклюзивность. Такой товар не купить в магазине.
+            </p> </div>
+            <div class="four columns" ><img src="forStart/Khudozhnik.png" class="squareBorder giftTrans"><p style="font-family: Magistral; font-size: 11pt; color: #797979; margin-top: 10px; padding-left: 60px" >
+                Качество. Портреты создаются профессиональными дизайнерами.
+            </p> </div>
+            <div class="four columns" style="float: right"><img src="forStart/Chasy.png" class="squareBorder giftTrans"><p style="font-family: Magistral; font-size: 11pt; color: #797979; margin-top: 10px; padding-left: 60px" >
+                Оперативность. От заявки до готового портрета 3-4 дня.
+            </p> </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="twelve columns" style="text-align: center"><p style="font-family: Magistral; font-size: 20pt; font-weight: 500; color: #dd005c">
+            <b>Счастливые обладатели наших работ:</b>
+        </p></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div class="row" >
+        <div class="four columns" align="center">
+            <img src="img/client1.jpg" width="250px" height="335px">
+        </div>
+        <div class="four columns" align="center">
+            <img src="img/client2.jpg" width="250px">
+        </div>
+
+        <div class="four columns" align="center">
+            <img src="img/client3.jpg" width="250px">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+    <!--Футер-->
+      <div class="container">
+          <div class="row" align="center">
+            <div class="two columns nOnEHight">
+              <table >
+                  <tr>
+              <td><a href="https://vk.com/milena_studio"><img src="socsety/Vkontakte.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="https://www.facebook.com/milena.studio.russia"><img src="socsety/Facebook.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="https://instagram.com/milena_studio"><img src="socsety/Instagram.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="http://ok.ru/milena.studio"><img src="socsety/Odnoklassniki.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="https://twitter.com/MilenaStudioRus"><img src="socsety/Twitter.jpg" width="34px" class="sotSet"></a></td>
+                    <td><a href="http://vk.com/write?email=milena.studio@mail.ru"><img src="socsety/mailru.jpg" width="34px" class="sotSet"></a></td>
+                
+                
+                  </tr>
+              </table>
+            </div>
+          </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Фотомозаика</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <link rel="shortcut icon" href="../img/iconLogo.png">
+  <link rel="icon" href="../img/iconLogo.png">
+  <link rel="stylesheet" type="text/css" media="all" href="../css/styleSlider.css">
+  <script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="../js/jquery.glide.min.js"></script>
+
+<style>
+
+    @font-face {
+        font-family: Archive;
+        src: url(../fonts/ArchiveRegular.ttf);
+    }
+
+    @font-face {
+        font-family: Magistral;
+        src: url(../fonts/MagistralC.otf);
+
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+</head>
+
+
+<body>
+  <div id="w">
+    <header>
+     <h1>Фотомозаика</h1>
+        <div style="float: right; margin-top: -50px"><a href="../styles_pictures.html"><p class="closeCircle">X</p></a></div>
+    </header>
+
+    <div class="slider">
+      <ul class="slides">
+        <li class="slide">
+          <figure>
+            <!--<figcaption>Designed by <a href="http://dribbble.com/shots/1362980-Witches">Adam Record</a></figcaption>-->
+            <img src="moz1.jpg" alt="dribbble witches">
+          </figure>
+        </li>
+        <li class="slide">
+          <figure>
+
+            <img src="moz2.jpg" alt="searing mountain illustration">
+          </figure>
+        </li>
+        <li class="slide">
+          <figure>
+
+            <img src="moz3.jpg" alt="taipei fireworks">
+          </figure>
+        </li>
+        <li class="slide">
+          <figure>
+
+            <img src="moz4.jpg" alt="coffee cup iphone newspaper">
+          </figure>
+        </li>
+        <li class="slide">
+          <figure>
+
+            <img src="moz5.jpg" alt="flying super squirrel">
+          </figure>
+        </li>
+          <li class="slide">
+              <figure>
+
+                  <img src="moz6.jpg" alt="flying super squirrel">
+              </figure>
+          </li>
+          <li class="slide">
+              <figure>
+
+                  <img src="moz7.jpg" alt="flying super squirrel">
+              </figure>
+          </li>
+          <li class="slide">
+              <figure>
+
+                  <img src="moz8.jpg" alt="flying super squirrel">
+              </figure>
+          </li>
+      </ul>
+    </div><!-- @end .slider -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('.slider').glide({
+    autoplay: 3500,
+    hoverpause: true, // set to false for nonstop rotate
+    arrowRightText: '&rarr;',
+    arrowLeftText: '&larr;'
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="content-type" content="text/html">
+    <title>Сухая кисть</title>
+    <link rel="shortcut icon" href="img/iconLogo.png">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/delivery.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <style>
+
+        @font-face {
+            font-family: Magistral;
+            src: url(fonts/MagistralC.otf);
+        }
+        @font-face {
+            font-family: Calibri;
+            src: url(fonts/calibri.ttf);
+        }
+
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .cursorHelp{
+            cursor: url(img/loopa.png), pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#aim").mouseover(function(){
+            $("#target").addClass("slideArrowLeft");
+        });
+        $("#aim").mouseout(function(){
+            $("#target").removeClass("slideArrowLeft");
+        })
+    });
+</script>
+
+<div class="container">
+
+    <div class="row">
+        <div class="two columns" ><a href="index.php"><img src="img/backArrow.png" id="target" width="36px" style=" float: left; margin-top: 10px"><p style="font-family: Magistral; color: #797979; font-size: 20pt; margin-top: 15px" id="aim"><b>НАЗАД</b></p></a></div>
+    </div>
+
+
+    <!--Увеличение по клику и обратно картинок-->
+    <script type="text/javascript">
+        var flag = true;
+
+        $(document).ready(function(){
+            $("#scale1").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale2").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale3").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale4").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+
+    </script>
+
+    <div class="row">
+        <div class="twelve columns" style="margin-top: 10px"> <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Сухая кисть</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            Техника портрета и методы рисования «сухая кисть» -
+            растёртые кистями краски на бумаге или ткани.
+            Почему же называют эту технику «сухая кисть»?
+            На самой кисти обычно используется очень мало
+            краски, тончайший слой, который равномерно
+            распределён по волосинкам кисти. На палитре
+            выдавлено и растёрто немного чёрной масляной краски.
+            Немного мокнув кистью в краску растираем её на
+            палитре, так, чтобы кисть была на самом деле почти
+            сухая, потом на основу акварельной бумаги или ткани
+            растиранием этой кистью наносится очень тонкий слой
+            краски. С первого взгляда техника «сухая кисть» очень
+            похожа на нарисованные портреты карандашом.</b></p><br></div>
+    </div>
+
+    <div class="row" style="text-align:center "> <p> <img class="img3 fotosShadow cursorHelp" src="img/brush1.png" id="scale1"  height="350px">
+        <img style="margin-right: 2% ; margin-left: 2%; " class="img3 fotosShadow cursorHelp" src="img/brush2.png" height="350px" id="scale2"> </p>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Истоки и происхождение техники «сухая кисть»</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            Метод «сухой кисти» впервые начал своё существование
+            приблизительно в середине ХХ века, советские
+            художники исполняли графические и цветные портреты
+            растирая кистями краску на белой хлопчатобумажной
+            материи. </b></p> </div>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>«Сухая кисть» в наше время</b>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            В современном изобразительном искусстве
+            «сухая кисть» воспринимается, как нетрадиционная
+            техника рисования, как правило её используют в
+            основном свободные художники Арбата. Не в одном
+            художественном учебном заведении этой технике
+            рисования не обучают, какая либо новая техника
+            рисования просто не может быть признана в
+            академических кругах по различным консервативным
+            устоям, не смотря на то, что мы живем уже в ХXI веке
+            и портреты в этой блистательной технике рисования
+            имеют большую популярность. На сегодняшний день
+            в среде свободных художников эта техника рисования
+            настоящий лидер и это не спроста, потому как,
+            «сухая кисть» имеет большой спрос среди заказчиков.</b></p><br></div>
+    </div>
+    <div class="row" style="text-align:center "> <p> <img class="img3 fotosShadow cursorHelp" src="img/girlWithBrush.png" height="350px" id="scale3" >
+        <img style="margin-right: 2% ; margin-left: 2%; " class="img3 fotosShadow cursorHelp" src="img/brush3.png" height="350px" id="scale4" > </p>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%; text-align: center"><p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>Стоимость портрета «сухая кисть»</b></p>
+           <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>
+            Формат А3 (297 x 420)<br><br>
+
+            1 человек - 1100 руб.<br>
+            2 человека - 1500 руб.<br>
+            3 человека - 2000 руб.<br><br>
+
+            Формат А2 (420 x 594)<br><br>
+
+            1 человек - 1300 руб.<br>
+            2 человека - 2000 руб.<br>
+            3 человека - 2400 руб.<br><br>
+           </b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>Доставка «Почтой России» - 400 руб.</b></p></div><br>
+    </div>
+
+</div>
+<div class="container " style="margin-top: 10px">
+    <div class="row" align="center">
+        <div class="twelve columns boxList " align="center" style="margin-top: 0px" >
+
+            <p style="font-family: Magistral; font-size: 16pt; color: #dd005c;" ><b>Контакты:</b></p>
+            <hr style="border-top:1px dashed #797979; width:75%; margin-top: -0px"/>
+            <p style="font-family: Magistral; font-size: 16pt; color: #4A4A4A; margin-top: -20px">
+                <b>E-Mail: milena.studio@mail.ru</b></p>
+
+
+            <table >
+                <tr>
+                    <td><a href="https://vk.com/milena_studio"><img src="socsety/Vkontakte.jpg" width="80px"
+                                                                    onmouseover="this.src='contacts/Vkontakte2.png'"
+                                                                    onmouseout="this.src='socsety/Vkontakte.jpg'"></a></td>
+                    <td><a href="https://www.facebook.com/milena.studio.russia"><img src="socsety/Facebook.jpg" width="80px"
+                                                                                     onmouseover="this.src='contacts/Facebook2.png'"
+                                                                                     onmouseout="this.src='socsety/Facebook.jpg'"></a></td>
+                    <td><a href="https://instagram.com/milena_studio"><img src="socsety/Instagram.jpg" width="80px"
+                                                                           onmouseover="this.src='contacts/Instagram2.png'"
+                                                                           onmouseout="this.src='socsety/Instagram.jpg'"></a></td>
+                    <td><a href="http://ok.ru/milena.studio"><img src="socsety/Odnoklassniki.jpg" width="80px"
+                                                                  onmouseover="this.src='contacts/Odnoklassniki2.png'"
+                                                                  onmouseout="this.src='socsety/Odnoklassniki.jpg'"></a></td>
+                    <td><a href="https://twitter.com/MilenaStudioRus"><img src="socsety/Twitter.jpg" width="80px"
+                                                                           onmouseover="this.src='contacts/Twitter2.png'"
+                                                                           onmouseout="this.src='socsety/Twitter.jpg'"></a></td>
+
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

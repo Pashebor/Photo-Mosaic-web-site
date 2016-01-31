@@ -1,0 +1,43 @@
+.Btext{
+    font-family: Magistral;
+    src: url(../fonts/MagistralC.otf);
+    font-size: 20pt;
+    color: #dd005c;
+    font-weight: 500;
+
+}
+
+.textblue {
+    font-family: Calibri;
+    src: url(../fonts/calibri.ttf);
+
+    font-size: 12pt;
+}
+
+.scaleObjects{
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+.fotosShadow{
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+
+}
+
+.fotosShadow:hover{
+    box-shadow: 0 0 10px 5px #000000;
+}
+.slideArrowLeft{
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -webkit-transform: translate(-20px,0);
+    -moz-transform: translate(-20px,0);
+    -o-transform: translate(-20px,0);
+}
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="content-type" content="text/html">
+    <title>Анимэ</title>
+    <link rel="shortcut icon" href="img/iconLogo.png">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/delivery.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <style>
+
+        @font-face {
+            font-family: Magistral;
+            src: url(fonts/MagistralC.otf);
+        }
+        @font-face {
+            font-family: Calibri;
+            src: url(fonts/calibri.ttf);
+        }
+
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .cursorHelp{
+            cursor: url(img/loopa.png), pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#aim").mouseover(function(){
+            $("#target").addClass("slideArrowLeft");
+        });
+        $("#aim").mouseout(function(){
+            $("#target").removeClass("slideArrowLeft");
+        })
+    });
+</script>
+
+<div class="container">
+
+    <div class="row">
+        <div class="two columns" ><a href="index.php"><img src="img/backArrow.png" id="target" width="36px" style=" float: left; margin-top: 10px"><p style="font-family: Magistral; color: #797979; font-size: 20pt; margin-top: 15px" id="aim"><b>НАЗАД</b></p></a></div>
+    </div>
+
+
+    <!--Увеличение по клику и обратно картинок-->
+    <script type="text/javascript">
+        var flag = true;
+
+        $(document).ready(function(){
+            $("#scale1").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#scale2").click(function(){
+                if(flag){
+                    $(this).addClass("scaleObjects");
+                    $(this).removeClass("fotosShadow")
+                    flag = false;
+                }else{
+                    $(this).removeClass("scaleObjects");
+                    $(this).addClass("fotosShadow");
+                    flag = true;
+                }
+            });
+        });
+
+
+    </script>
+
+    <div class="row">
+        <div class="twelve columns" style="margin-top: 10px"> <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Портрет в стиле «аниме»</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>
+            Аниме - это относительно молодой вид искусства, в
+            портретной живописи он получил широкое
+            распространение по всему миру в 2002 году. Сегодня
+            портрет с фото в стиле аниме - это отличный подарок
+            для всех ваших знакомых. Это отличный способ
+            добавить свежести и яркости в жизнь человека.</b></p></div>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"> <b>Портрет в стиле «аниме» в подарок</b></p>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"> <b>
+            Портрету в стиле «аниме» свойственны самые
+            невероятные сюжеты, мы можем создать целый мир для
+            ваших любимых. Что может быть лучше? Вы не просто
+            покупаете портрет в подарок, Вы также приобретаете
+            личную вселенную, придуманную и нарисованную
+            специально для Вашего любимого человека, родителей
+            или друзей. </b></p></div>
+    </div>
+    <div class="row" style="text-align:center "> <p> <img class="img3 fotosShadow cursorHelp" src="img/animeBoris.png" id="scale1" height="350px" >
+        <img style="margin-right: 2% ; margin-left: 2%; " class="img3 fotosShadow cursorHelp" src="img/boris.png" id="scale2" height="350px">  </p>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%; text-align: center"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Зачем раздумывать?</b></p><br>
+            <p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b>Выделите свой подарок из множества остальных!</b></p> </div>
+    </div>
+    <div class="row">
+        <div class="one" style="margin-top: 3%; text-align: center"><p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>Стоимость портрета в стиле «аниме»</b></p></div>
+    </div>
+
+    <div class="row">
+        <div class="one" style=" text-align: center"><p style="font-family: Magistral;font-size: 20pt;color: #dd005c;font-weight: 500;"><b><br>
+
+            1 человек - 400 руб.<br>
+            2 человека (вместе)	- 700 руб.<br>
+            3 человека (вместе) - 900 руб.<br>
+            4 человека (вместе) - 1100 руб.</b></p><br>
+            <p style="font-family: Calibri; color: #000000; font-size: 12pt"><b>Готовая работа высылается по электронной почте.</b></p>
+        </div><br>
+    </div>
+
+
+</div>
+<div class="container " style="margin-top: 10px">
+    <div class="row" align="center">
+        <div class="twelve columns boxList " align="center" style="margin-top: 0px" >
+
+            <p style="font-family: Magistral; font-size: 16pt; color: #dd005c;" ><b>Контакты:</b></p>
+            <hr style="border-top:1px dashed #797979; width:75%; margin-top: -0px"/>
+            <p style="font-family: Magistral; font-size: 16pt; color: #4A4A4A; margin-top: -20px">
+                <b>E-Mail: milena.studio@mail.ru</b></p>
+
+
+            <table >
+                <tr>
+                    <td><a href="https://vk.com/milena_studio"><img src="socsety/Vkontakte.jpg" width="80px"
+                                                                    onmouseover="this.src='contacts/Vkontakte2.png'"
+                                                                    onmouseout="this.src='socsety/Vkontakte.jpg'"></a></td>
+                    <td><a href="https://www.facebook.com/milena.studio.russia"><img src="socsety/Facebook.jpg" width="80px"
+                                                                                     onmouseover="this.src='contacts/Facebook2.png'"
+                                                                                     onmouseout="this.src='socsety/Facebook.jpg'"></a></td>
+                    <td><a href="https://instagram.com/milena_studio"><img src="socsety/Instagram.jpg" width="80px"
+                                                                           onmouseover="this.src='contacts/Instagram2.png'"
+                                                                           onmouseout="this.src='socsety/Instagram.jpg'"></a></td>
+                    <td><a href="http://ok.ru/milena.studio"><img src="socsety/Odnoklassniki.jpg" width="80px"
+                                                                  onmouseover="this.src='contacts/Odnoklassniki2.png'"
+                                                                  onmouseout="this.src='socsety/Odnoklassniki.jpg'"></a></td>
+                    <td><a href="https://twitter.com/MilenaStudioRus"><img src="socsety/Twitter.jpg" width="80px"
+                                                                           onmouseover="this.src='contacts/Twitter2.png'"
+                                                                           onmouseout="this.src='socsety/Twitter.jpg'"></a></td>
+
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
